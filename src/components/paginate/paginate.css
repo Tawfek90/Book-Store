@@ -1,0 +1,84 @@
+.paginate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -4rem 0;
+}
+
+.paginate .paginate-container {
+  width: 90vw;
+  max-width: 90vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[10];
+      grid-template-columns: repeat(10, 1fr);
+  background: #5f9ea0;
+  padding: 10px 0;
+}
+
+.paginate .paginate-container .number {
+  color: #fff;
+  font-size: 19px;
+  padding: 2px 7px;
+  margin: 5px 0;
+  text-align: center;
+  width: 10vw;
+  max-width: 46px;
+  cursor: pointer;
+}
+
+.paginate .paginate-container .active {
+  background: #1e75c1;
+}
+
+/*media query*/
+@media (min-width: 10px) and (max-width: 500px) {
+  .paginate {
+    margin: -6rem 0 0 0;
+  }
+  .paginate .paginate-container {
+    padding: 0;
+  }
+  .paginate .paginate-container .number {
+    max-width: 45px;
+    border: none;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .paginate {
+    margin: -4rem 0 0 0;
+  }
+  .paginate .paginate-container {
+    padding: 0;
+  }
+  .paginate .paginate-container .number {
+    max-width: 45px;
+    border: none;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1150px) {
+  .paginate {
+    margin: -4rem 0 0 0;
+  }
+  .paginate .paginate-container {
+    padding: 0;
+  }
+  .paginate .paginate-container .number {
+    max-width: 45px;
+    border: none;
+    font-size: 17px;
+    margin: 10px 0;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=paginate.css.map */

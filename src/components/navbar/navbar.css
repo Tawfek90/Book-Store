@@ -1,0 +1,106 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  height: 5rem;
+  border-bottom: 2px solid #476a2e;
+  -webkit-box-shadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.navbar .navbar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.navbar .navbar-container a {
+  text-decoration: none;
+  color: #5f9ea0;
+  font-size: 29px;
+  font-weight: 500;
+}
+
+.navbar .navbar-container .logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #5f9ea0;
+}
+
+.navbar .navbar-container .links {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: capitalize;
+  font-size: 23px;
+  list-style: none;
+}
+
+.navbar .navbar-container .links .link-item {
+  margin: 0 28px;
+  cursor: pointer;
+}
+
+/*media query*/
+@media (min-width: 10px) and (max-width: 500px) {
+  .navbar .navbar-container a {
+    font-size: 22px;
+    letter-spacing: 0px;
+    font-weight: normal;
+  }
+  .navbar .navbar-container .links .link-item {
+    font-size: 22px;
+    letter-spacing: 0px;
+    font-weight: normal;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .navbar .navbar-container a {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  .navbar .navbar-container .links .link-item {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1150px) {
+  .navbar .navbar-container a {
+    font-size: 27px;
+    letter-spacing: 1px;
+  }
+  .navbar .navbar-container .links .link-item {
+    font-size: 27px;
+    letter-spacing: 1px;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,22 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 9rem 0;
+}
+@media (min-width: 10px) and (max-width: 500px) {
+  .about {
+    margin: 9rem 0;
+  }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+  .about {
+    margin: 9rem 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1150px) {
+  .about {
+    margin: 9rem 0;
+  }
+}

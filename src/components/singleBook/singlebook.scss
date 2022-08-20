@@ -1,0 +1,56 @@
+.singleBook {
+  border: 2px solid #eee;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 3px 6px 10px 0px #ddd;
+  margin: 20px 0;
+  .img {
+    width: 100%;
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 20rem;
+      border-radius: 5px;
+    }
+  }
+  .title {
+    margin: 20px 0;
+    padding: 0 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #092a34;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .details {
+    text-transform: capitalize;
+    font-size: 19px;
+    background: #25784e;
+    padding: 3px 41px;
+    border-radius: 4px;
+    margin: 6px 31px;
+    cursor: pointer;
+    font-style: italic;
+    text-align: center;
+    a {
+      text-decoration: none;
+      color: #fff;
+      width: 100%;
+      display: inline-block;
+      padding: 3px;
+    }
+  }
+}
+
+/*media query*/
+@media (min-width: 10px) and (max-width: 500px) {
+  .singleBook {
+    width: 67%;
+    margin: -38px 0 54px 0;
+  }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+}
+@media (min-width: 769px) and (max-width: 1150px) {
+}

@@ -1,0 +1,37 @@
+.Intro-container {
+  width: 90vw;
+  background: #fff;
+  max-width: 508px;
+  padding: 2rem 3rem;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+  border-radius: 10px;
+  color: #478976;
+  line-height: 29px;
+  box-shadow: 1px 2px 21px 7px rgba(0, 0, 0, 0.5);
+}
+
+/*media query*/
+@media (min-width: 10px) and (max-width: 500px) {
+  .Intro-container {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 25px;
+  }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+  .Intro-container {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 37px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1150px) {
+  .Intro-container {
+    font-size: 17px;
+    line-height: 24px;
+    padding: 37px;
+  }
+}
